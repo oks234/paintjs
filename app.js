@@ -80,7 +80,6 @@ function handleSaveClick() {
   link.href = image;
   link.download = "PaintJS.png";
   link.click();
-  console.log(link);
 }
 
 if (canvas) {
